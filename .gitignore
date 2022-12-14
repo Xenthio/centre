@@ -1,0 +1,11 @@
+
+maps/_backups/*
+maps/_bakeresourcecache/*
+
+maps/centre (2).zip
+*.los
+*.sapaths
+*.sareverb
+*.vpk
+maps/centre.zip
+materials.zip

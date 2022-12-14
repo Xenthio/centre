@@ -1,0 +1,52 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "complex.vfx"
+
+	//---- Normal ----
+	F_ENABLE_NORMAL_SELF_SHADOW 1
+
+	//---- PBR ----
+	F_SPECULAR 1
+
+	//---- Rendering ----
+	F_HIGH_QUALITY_REFLECTIONS_LEGACY_LAYOUT 1
+
+	//---- Ambient Occlusion ----
+	g_flAmbientOcclusionDirectDiffuse "0.000"
+	g_flAmbientOcclusionDirectSpecular "0.000"
+	TextureAmbientOcclusion "materials/pavingstones/PavingStones098_2K_AmbientOcclusion.jpg"
+
+	//---- Color ----
+	g_flModelTintAmount "1.000"
+	g_vColorTint "[1.000000 1.000000 1.000000 0.000000]"
+	TextureColor "materials/pavingstones/PavingStones098_2K_Color.jpg"
+
+	//---- Fade ----
+	g_flFadeExponent "1.000"
+
+	//---- Fog ----
+	g_bFogEnabled "1"
+
+	//---- Lighting ----
+	g_flDirectionalLightmapMinZ "0.050"
+	g_flDirectionalLightmapStrength "1.000"
+
+	//---- Metalness ----
+	g_flMetalness "0.000"
+
+	//---- Normal ----
+	g_flLightRangeForSelfShadowNormals "1.000"
+	TextureNormal "materials/pavingstones/PavingStones098_2K_NormalGL.jpg"
+
+	//---- Roughness ----
+	TextureRoughness "materials/pavingstones/PavingStones098_2K_Roughness.jpg"
+
+	//---- Texture Coordinates ----
+	g_nScaleTexCoordUByModelScaleAxis "0"
+	g_nScaleTexCoordVByModelScaleAxis "0"
+	g_vTexCoordOffset "[0.000 0.000]"
+	g_vTexCoordScale "[5.000 5.000]"
+	g_vTexCoordScrollSpeed "[0.000 0.000]"
+}

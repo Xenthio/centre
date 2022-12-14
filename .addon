@@ -1,0 +1,21 @@
+{
+  "Title": "Centre",
+  "Type": "map",
+  "Org": "xenthio",
+  "Ident": "centre",
+  "Tags": "",
+  "Schema": 1,
+  "HasAssets": true,
+  "AssetsPath": "",
+  "ResourcePaths": null,
+  "HasCode": false,
+  "CodePath": null,
+  "Metadata": {
+    "GameSupport": [
+      "facepunch.sandbox"
+    ],
+    "Summary": "Learning more hammer : D",
+    "Description": "Learning more hammer : D",
+    "Public": true
+  }
+}
